@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: "PT Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
+  /* background-image: "../images/background.png"; */
+  background-color: #cccccc;
+}
+
+h3 {
+  font-style: italic;
+  color: #dd6b00;
+}
+
+a {
+  color: #0b8000;
+}
+p {
+  color: #003668;
+  text-align: justify;
+}
+.item {
+  margin: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(92, 22, 22);
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease-out;
+  background: rgb(187, 187, 187);
+  /* color: #806f6f; */
+  transition: 250ms;
+}
+#mapid {
+  height: 800px;
+  width: 1280px;
+}
